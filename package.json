@@ -1,0 +1,12 @@
+{
+  "name": "vitest-css-issue",
+  "version": "1.0.0",
+  "description": "Vitest import issue",
+  "scripts": {
+    "build": "pnpm -r --stream --filter !app run build",
+    "test": "pnpm -r --stream run test"
+  },
+  "author": "",
+  "license": "ISC",
+  "private": true
+}

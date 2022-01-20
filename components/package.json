@@ -4,6 +4,9 @@
   "description": "",
   "main": "cjs/index.js",
   "module": "esm/index.js",
+  "exports": {
+    "import": "./esm/index.js"
+  },
   "scripts": {
     "build:esm": "cross-env BABEL_ENV=esm babel src --out-dir esm",
     "build:cjs": "cross-env BABEL_ENV=cjs babel src --out-dir cjs",
